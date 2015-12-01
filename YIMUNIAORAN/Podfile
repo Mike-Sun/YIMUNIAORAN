@@ -1,0 +1,7 @@
+pod 'AFNetworking', '~> 2.5.3'
+
+pod 'SDWebImage', '~> 3.7.2'
+
+pod 'Reachability', '~> 3.2'
+
+pod 'MJRefresh', '~> 2.4.3'
