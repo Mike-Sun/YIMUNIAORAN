@@ -25,13 +25,13 @@
 		69E38EEC1C06A186005059B0 /* CasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E38EEB1C06A186005059B0 /* CasesViewController.m */; };
 		69E38EEF1C06A193005059B0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E38EEE1C06A193005059B0 /* MasterViewController.m */; };
 		69E38EF21C06A1A1005059B0 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E38EF11C06A1A1005059B0 /* PersonalViewController.m */; };
-		EEA538EB1C0D8A0500A0A769 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA538EA1C0D8A0500A0A769 /* HomeTableViewCell.m */; };
 		EEE7E2C41C07FC4100FD87BB /* BannerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE7E2C31C07FC4100FD87BB /* BannerDetailViewController.m */; };
 		EEE7E2C81C0800E700FD87BB /* TabBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE7E2C71C0800E700FD87BB /* TabBarManager.m */; };
 		EEE7E2CB1C08028400FD87BB /* CustomBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE7E2CA1C08028400FD87BB /* CustomBanner.m */; };
 		EEE7E2CF1C080DDB00FD87BB /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE7E2CE1C080DDB00FD87BB /* UserModel.m */; };
 		EEE9B2E61C0C265D00843B7D /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE9B2E51C0C265D00843B7D /* GridView.m */; };
 		EEE9B2E91C0C3DE100843B7D /* GridDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE9B2E81C0C3DE100843B7D /* GridDetailViewController.m */; };
+		EEF6583D1C0D9563006692F3 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF6583C1C0D9563006692F3 /* HomeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,8 +92,6 @@
 		69E38EF01C06A1A1005059B0 /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
 		69E38EF11C06A1A1005059B0 /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
 		ECCB489D28269EF829E704B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEA538E91C0D8A0500A0A769 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
-		EEA538EA1C0D8A0500A0A769 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 		EEE7E2C21C07FC4100FD87BB /* BannerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerDetailViewController.h; sourceTree = "<group>"; };
 		EEE7E2C31C07FC4100FD87BB /* BannerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerDetailViewController.m; sourceTree = "<group>"; };
 		EEE7E2C61C0800E700FD87BB /* TabBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarManager.h; sourceTree = "<group>"; };
@@ -106,6 +104,8 @@
 		EEE9B2E51C0C265D00843B7D /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
 		EEE9B2E71C0C3DE100843B7D /* GridDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridDetailViewController.h; sourceTree = "<group>"; };
 		EEE9B2E81C0C3DE100843B7D /* GridDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridDetailViewController.m; sourceTree = "<group>"; };
+		EEF6583B1C0D9563006692F3 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		EEF6583C1C0D9563006692F3 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,8 +383,6 @@
 		EEA538E81C0D891E00A0A769 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				EEA538E91C0D8A0500A0A769 /* HomeTableViewCell.h */,
-				EEA538EA1C0D8A0500A0A769 /* HomeTableViewCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -396,6 +394,8 @@
 				EEE7E2CA1C08028400FD87BB /* CustomBanner.m */,
 				EEE9B2E41C0C265D00843B7D /* GridView.h */,
 				EEE9B2E51C0C265D00843B7D /* GridView.m */,
+				EEF6583B1C0D9563006692F3 /* HomeTableViewCell.h */,
+				EEF6583C1C0D9563006692F3 /* HomeTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -599,7 +599,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA538EB1C0D8A0500A0A769 /* HomeTableViewCell.m in Sources */,
+				EEF6583D1C0D9563006692F3 /* HomeTableViewCell.m in Sources */,
 				69E38E8A1C05F5A1005059B0 /* IOSMD5.m in Sources */,
 				69E38ED21C05FAE4005059B0 /* NetworkManager.m in Sources */,
 				EEE9B2E61C0C265D00843B7D /* GridView.m in Sources */,
