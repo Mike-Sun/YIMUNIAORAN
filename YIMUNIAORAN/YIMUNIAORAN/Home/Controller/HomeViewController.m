@@ -11,6 +11,7 @@
 #import "BannerDetailViewController.h"
 #import "GridView.h"
 #import "GridDetailViewController.h"
+#import "HomeTableViewCell.h"
 
 @interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource, CustomBannerDelegate, GridViewDelegate>
 
