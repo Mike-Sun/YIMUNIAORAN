@@ -28,7 +28,7 @@
     // Do any additional setup after loading the view.
     [self createInterface];
     // [self networkTest];
-    
+    NSLog(@"");
     
 }
 
