@@ -314,6 +314,7 @@
 		69E38EDB1C069EFC005059B0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				EEA538E81C0D891E00A0A769 /* Cell */,
 				69E38EDC1C069EFC005059B0 /* Controller */,
 				EEE7E2BE1C07EB7F00FD87BB /* View */,
 				69E38EDD1C069EFC005059B0 /* Model */,
@@ -374,6 +375,13 @@
 				69E38EF11C06A1A1005059B0 /* PersonalViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		EEA538E81C0D891E00A0A769 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		EEE7E2BE1C07EB7F00FD87BB /* View */ = {
