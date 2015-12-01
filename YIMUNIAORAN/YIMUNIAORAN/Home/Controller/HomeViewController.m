@@ -28,8 +28,7 @@
     // Do any additional setup after loading the view.
     [self createInterface];
     // [self networkTest];
-    NSLog(@"");
-    NSLog(@"");
+    
     
 }
 
@@ -166,11 +165,11 @@
     return 45;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+- (HomeTableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *str = @"chong2";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:str];
+    HomeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:str];
     if (!cell) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:str];
+        cell = [[HomeTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:str];
         [cell setBackgroundColor:[UIColor clearColor]];
     }
     return cell;
