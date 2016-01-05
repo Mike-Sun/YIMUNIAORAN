@@ -68,9 +68,7 @@
     } failedBlock:^(NSError *error) {
         
         
-    }];
-    
-    
+    }];    
 }
 
 
