@@ -77,6 +77,7 @@
     self.view.backgroundColor = VCBACKGROUND_GRAY;
     self.navigationController.navigationBar.hidden = YES;
     
+    
     // 自定义导航栏
     CustomNavBar *customNavBar = [[CustomNavBar alloc] init];
     [customNavBar NavView:self navText:@"一木鸟然" popState:1];
